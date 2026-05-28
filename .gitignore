@@ -1,9 +1,5 @@
-# Executables
-a.out
-*.out
-
-# Object files
-*.o
-
-# VS Code
-.vscode/
+*
+!*.c
+!*.cpp
+!*.h
+!*.md
