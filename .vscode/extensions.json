@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one",
+    "pkief.material-icon-theme",
+    "alefragnani.bookmarks",
+    "wayou.vscode-todo-highlight"
+  ]
+}
