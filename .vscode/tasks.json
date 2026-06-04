@@ -38,9 +38,7 @@
         "panel": "shared",
         "clear": true
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
+      "problemMatcher": ["$gcc"],
       "windows": {
         "group": {
           "kind": "build",
@@ -77,19 +75,14 @@
         "panel": "shared",
         "clear": true
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
+      "problemMatcher": ["$gcc"],
       "windows": {}
     },
     {
       "label": "Create build directory (Ubuntu)",
       "type": "shell",
       "command": "bash",
-      "args": [
-        "-c",
-        "mkdir -p '${workspaceFolder}/build'"
-      ],
+      "args": ["-c", "mkdir -p '${workspaceFolder}/build'"],
       "presentation": {
         "reveal": "never",
         "panel": "dedicated"
@@ -116,9 +109,7 @@
         "panel": "shared",
         "clear": true
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
+      "problemMatcher": ["$gcc"],
       "linux": {
         "group": {
           "kind": "build",
@@ -152,9 +143,7 @@
         "panel": "shared",
         "clear": true
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
+      "problemMatcher": ["$gcc"],
       "linux": {}
     }
   ]
