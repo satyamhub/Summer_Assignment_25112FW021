@@ -9,6 +9,7 @@ A comprehensive 10-day C++ programming assignment covering fundamental concepts 
 ## 📋 Overview
 
 This assignment includes **40 programming problems** organized into **10 days**, with progressive complexity levels. Each solution includes:
+
 - ✨ Problem statement
 - 📝 Detailed approach explanation
 - ⏱️ Time & Space complexity analysis
@@ -35,80 +36,90 @@ Summer_Assignment_25112FW021/
 ## 📚 Problem Breakdown
 
 ### **DAY 1: Basic Arithmetic** 🔢
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q1 | Sum up to N Numbers | O(N) / O(1) |
-| Q2 | Multiplication Table | O(N) / O(1) |
-| Q3 | Factorial | O(N) / O(1) |
-| Q4 | Count Digits | O(log N) / O(1) |
+
+| #   | Problem              | Complexity      |
+| --- | -------------------- | --------------- |
+| Q1  | Sum up to N Numbers  | O(N) / O(1)     |
+| Q2  | Multiplication Table | O(N) / O(1)     |
+| Q3  | Factorial            | O(N) / O(1)     |
+| Q4  | Count Digits         | O(log N) / O(1) |
 
 ### **DAY 2: Number Properties** 🔍
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q5 | Sum of Digits | O(log N) / O(1) |
-| Q6 | Reverse Number | O(log N) / O(1) |
-| Q7 | Product of Digits | O(log N) / O(1) |
-| Q8 | Palindrome Check | O(log N) / O(1) |
+
+| #   | Problem           | Complexity      |
+| --- | ----------------- | --------------- |
+| Q5  | Sum of Digits     | O(log N) / O(1) |
+| Q6  | Reverse Number    | O(log N) / O(1) |
+| Q7  | Product of Digits | O(log N) / O(1) |
+| Q8  | Palindrome Check  | O(log N) / O(1) |
 
 ### **DAY 3: Prime & GCD Concepts** 🎯
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q9 | Prime Check | O(√N) / O(1) |
-| Q10 | Prime in Range | O(N√N) / O(1) |
+
+| #   | Problem         | Complexity             |
+| --- | --------------- | ---------------------- |
+| Q9  | Prime Check     | O(√N) / O(1)           |
+| Q10 | Prime in Range  | O(N√N) / O(1)          |
 | Q11 | GCD (Euclidean) | O(log min(a,b)) / O(1) |
-| Q12 | LCM | O(log min(a,b)) / O(1) |
+| Q12 | LCM             | O(log min(a,b)) / O(1) |
 
 ### **DAY 4: Armstrong Numbers** 💎
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q13 | Fibonacci Series | O(N) / O(1) |
-| Q14 | Nth Fibonacci | O(N) / O(1) |
-| Q15 | Armstrong Check | O(log N) / O(1) |
-| Q16 | Armstrong Range | O(N * log N) / O(1) |
+
+| #   | Problem          | Complexity           |
+| --- | ---------------- | -------------------- |
+| Q13 | Fibonacci Series | O(N) / O(1)          |
+| Q14 | Nth Fibonacci    | O(N) / O(1)          |
+| Q15 | Armstrong Check  | O(log N) / O(1)      |
+| Q16 | Armstrong Range  | O(N \* log N) / O(1) |
 
 ### **DAY 5: Number Classification** 📊
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q17 | Perfect Number Check | O(N) / O(1) |
-| Q18 | Strong Number Check | O(N * M) / O(1) |
-| Q19 | Factors of Number | O(N) / O(1) |
-| Q20 | Largest Prime Factor | O(N * √N) / O(1) |
+
+| #   | Problem              | Complexity        |
+| --- | -------------------- | ----------------- |
+| Q17 | Perfect Number Check | O(N) / O(1)       |
+| Q18 | Strong Number Check  | O(N \* M) / O(1)  |
+| Q19 | Factors of Number    | O(N) / O(1)       |
+| Q20 | Largest Prime Factor | O(N \* √N) / O(1) |
 
 ### **DAY 6: Bit Operations & Powers** ⚡
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q21 | Decimal to Binary | O(log N) / O(1) |
-| Q22 | Binary to Decimal | O(log N) / O(1) |
-| Q23 | Count Set Bits | O(log N) / O(1) |
-| Q24 | Power Without pow() | O(N) / O(1) |
+
+| #   | Problem             | Complexity      |
+| --- | ------------------- | --------------- |
+| Q21 | Decimal to Binary   | O(log N) / O(1) |
+| Q22 | Binary to Decimal   | O(log N) / O(1) |
+| Q23 | Count Set Bits      | O(log N) / O(1) |
+| Q24 | Power Without pow() | O(N) / O(1)     |
 
 ### **DAY 7: Recursion Basics** 🔄
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q25 | Recursive Factorial | O(N) / O(N) |
-| Q26 | Recursive Fibonacci | O(2^N) / O(N) |
-| Q27 | Recursive Sum of Digits | O(log N) / O(log N) |
+
+| #   | Problem                  | Complexity          |
+| --- | ------------------------ | ------------------- |
+| Q25 | Recursive Factorial      | O(N) / O(N)         |
+| Q26 | Recursive Fibonacci      | O(2^N) / O(N)       |
+| Q27 | Recursive Sum of Digits  | O(log N) / O(log N) |
 | Q28 | Recursive Reverse Number | O(log N) / O(log N) |
 
 ### **DAY 9: Pattern Generation** 🎨
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q33 | Reverse Star Pattern | O(N²) / O(1) |
-| Q34 | Reverse Number Triangle | O(N²) / O(1) |
+
+| #   | Problem                    | Complexity   |
+| --- | -------------------------- | ------------ |
+| Q33 | Reverse Star Pattern       | O(N²) / O(1) |
+| Q34 | Reverse Number Triangle    | O(N²) / O(1) |
 | Q35 | Repeated Character Pattern | O(N²) / O(1) |
-| Q36 | Hollow Square Pattern | O(N²) / O(1) |
+| Q36 | Hollow Square Pattern      | O(N²) / O(1) |
 
 ### **DAY 10: Advanced Patterns** 🌟
-| # | Problem | Complexity |
-|---|---------|-----------|
-| Q37 | Star Pyramid | O(N²) / O(1) |
-| Q38 | Reverse Pyramid | O(N²) / O(1) |
-| Q39 | Number Pyramid | O(N²) / O(1) |
+
+| #   | Problem           | Complexity   |
+| --- | ----------------- | ------------ |
+| Q37 | Star Pyramid      | O(N²) / O(1) |
+| Q38 | Reverse Pyramid   | O(N²) / O(1) |
+| Q39 | Number Pyramid    | O(N²) / O(1) |
 | Q40 | Character Pyramid | O(N²) / O(1) |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - GCC compiler with C++17 support
 - Linux/Unix environment (or Windows with WSL)
 - VS Code (optional, but recommended)
@@ -116,6 +127,7 @@ Summer_Assignment_25112FW021/
 ### Building
 
 #### Ubuntu/Linux Build
+
 ```bash
 # Build current file
 cd /path/to/workspace
@@ -124,7 +136,9 @@ g++ -std=c++17 -Wall -Wextra -g <filename>.cpp -o build/<filename>
 ```
 
 #### VS Code Tasks
+
 Use the pre-configured build tasks:
+
 - **Build and Run (Ubuntu)**: `Ctrl+Shift+B` then select task
 - **Run with I/O**: Tests input from `practice_io/input.txt`
 
@@ -141,11 +155,13 @@ Use the pre-configured build tasks:
 ## 📝 Example: Star Pyramid (Q37)
 
 **Input:**
+
 ```
 5
 ```
 
 **Output:**
+
 ```
     *
    ***
@@ -155,6 +171,7 @@ Use the pre-configured build tasks:
 ```
 
 **Code Snippet:**
+
 ```cpp
 for(int i = 1; i <= n; i++){
     // Print spaces
@@ -218,6 +235,7 @@ int main() {
 ## 🧪 Testing
 
 ### Test with provided I/O
+
 ```bash
 # Run with input file
 g++ -std=c++17 DAY\ 10/37_Star_Pyramid.cpp -o build/test
@@ -226,6 +244,7 @@ cat practice_io/output.txt
 ```
 
 ### Manual Testing
+
 ```bash
 ./build/37_Star_Pyramid
 # Enter: 5
@@ -248,16 +267,18 @@ Week 3: Patterns (Q33-Q40)
 ## 🎯 Complexity Analysis Reference
 
 ### Time Complexity Cheat Sheet
-| Operation | Complexity |
-|-----------|-----------|
-| Single digit extraction | O(log N) |
-| Loop N times | O(N) |
-| Nested loops | O(N²) |
-| Prime check | O(√N) |
-| Recursive factorial | O(N) |
-| Recursive fibonacci | O(2^N) |
+
+| Operation               | Complexity |
+| ----------------------- | ---------- |
+| Single digit extraction | O(log N)   |
+| Loop N times            | O(N)       |
+| Nested loops            | O(N²)      |
+| Prime check             | O(√N)      |
+| Recursive factorial     | O(N)       |
+| Recursive fibonacci     | O(2^N)     |
 
 ### Space Complexity
+
 - Most solutions use **O(1)** - constant extra space
 - Recursive solutions use **O(N)** or **O(log N)** - call stack
 
@@ -284,8 +305,8 @@ Week 3: Patterns (Q33-Q40)
 
 ## 👤 Author
 
-**Assignment**: Summer Assignment 2025 (Roll: 25112FW021)  
-**Language**: C++17  
+**Assignment**: Summer Assignment 2025 (Roll: 25112FW021)
+**Language**: C++17
 **Date**: June 2026
 
 ## 📄 License
@@ -298,6 +319,6 @@ This project is open source and available under the MIT License.
 
 **Happy Coding! 🎉**
 
-*Master the fundamentals, then conquer advanced problems!*
+_Master the fundamentals, then conquer advanced problems!_
 
 </div>
