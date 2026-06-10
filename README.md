@@ -1,4 +1,4 @@
-# Summer Assignment - C++ Programming 🚀
+# Summer Assignment - C++ Programming 
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=cplusplus)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
