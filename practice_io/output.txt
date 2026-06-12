@@ -1,2 +1,2 @@
-Enter the number for its factorial
-120
+Enter the Number to Check if it is Perfect or not
+Entered Number is Perfect Number
