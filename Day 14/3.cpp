@@ -7,10 +7,10 @@ Approach:
 1. I will take the input of the size of the array from the user.
 2. Create an Array of that size.
 3. Run the loop from i=0 to n-1, to take the input in the array.
-4. I will sort the array.
-5. Then I will print the second last element of array.
+4. I will assume largest and second largest as minimum value.
+5. Then I will compare each element and update largest and second largest.
 
-TC:O(NlogN)
+TC:O(N)
 SC:O(N)
 
 */
@@ -36,9 +36,23 @@ int main() {
         cin >> arr[i];
     }
 
-    sort(arr, arr + n);
+    int largest = INT_MIN;
+    int secondLargest = INT_MIN;
 
-    cout << "Second Largest Element is " << arr[n - 2];
+    for (int i = 0; i < n; i++) {
+        if (arr[i] > largest) {
+            secondLargest = largest;
+            largest = arr[i];
+        } else if (arr[i] > secondLargest && arr[i] != largest) {
+            secondLargest = arr[i];
+        }
+    }
+
+    if (secondLargest == INT_MIN) {
+        cout << "Second Largest Element is Not Present";
+    } else {
+        cout << "Second Largest Element is " << secondLargest;
+    }
 
     return 0;
 }
