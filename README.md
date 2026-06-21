@@ -1,194 +1,109 @@
-# Summer Assignment - C++ Programming 
+# Summer Assignment - C++ Programming
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=cplusplus)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square)
+![Problems](https://img.shields.io/badge/Solutions-83%2F84-brightgreen?style=flat-square)
 
-A comprehensive 10-day C++ programming assignment covering fundamental concepts from basic arithmetic to advanced pattern generation and recursion.
+A 21-day C++ assignment covering programming fundamentals, functions, arrays,
+sorting, matrices, and strings. The curriculum contains 84 questions, from Q1
+to Q84. This repository currently contains 83 solution files; the Q1 source
+file is not present.
 
-## 📋 Overview
+## Overview
 
-This assignment includes **40 programming problems** organized into **10 days**, with progressive complexity levels. Each solution includes:
+Each solution generally includes:
 
-- ✨ Problem statement
-- 📝 Detailed approach explanation
-- ⏱️ Time & Space complexity analysis
-- 💻 Clean, optimized C++17 code
+- Problem statement
+- Step-by-step approach
+- Time and space complexity
+- C++17 implementation
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 Summer_Assignment_25112FW021/
-├── DAY 1/          # Basic Arithmetic (Q1-Q4)
-├── DAY 2/          # Number Properties (Q5-Q8)
-├── DAY 3/          # Prime & GCD Concepts (Q9-Q12)
-├── DAY 4/          # Armstrong Numbers (Q13-Q16)
-├── DAY 5/          # Number Classification (Q17-Q20)
-├── DAY 6/          # Bit Operations & Powers (Q21-Q24)
-├── DAY 7/          # Recursion Basics (Q25-Q28)
-├── DAY 9/          # Pattern Generation (Q33-Q36)
-├── DAY 10/         # Advanced Patterns (Q37-Q40)
-├── build/          # Compiled binaries
-├── practice_io/    # Input/Output test files
-└── README.md       # This file
+|-- DAY 1/          # Basic arithmetic (Q1-Q4)
+|-- DAY 2/          # Number operations (Q5-Q8)
+|-- DAY 3/          # Prime numbers, GCD and LCM (Q9-Q12)
+|-- DAY 4/          # Fibonacci and Armstrong numbers (Q13-Q16)
+|-- DAY 5/          # Special numbers and factors (Q17-Q20)
+|-- DAY 6/          # Binary conversion and powers (Q21-Q24)
+|-- DAY 7/          # Recursion (Q25-Q28)
+|-- DAY 8/          # Basic patterns (Q29-Q32)
+|-- DAY 9/          # More patterns (Q33-Q36)
+|-- DAY 10/         # Pyramids (Q37-Q40)
+|-- Day 11/         # Basic functions (Q41-Q44)
+|-- Day 12/         # Number-checking functions (Q45-Q48)
+|-- Day 13/         # Array basics (Q49-Q52)
+|-- Day 14/         # Array searching and frequency (Q53-Q56)
+|-- Day 15/         # Array transformations (Q57-Q60)
+|-- Day 16/         # Array problems (Q61-Q64)
+|-- Day 17/         # Operations on two arrays (Q65-Q68)
+|-- Day 18/         # Sorting and binary search (Q69-Q72)
+|-- Day 19/         # Matrix basics (Q73-Q76)
+|-- Day 20/         # Matrix operations (Q77-Q80)
+|-- DAY 21/         # String basics (Q81-Q84)
+|-- build/          # Compiled binaries
+|-- practice_io/    # Input and output test files
+`-- README.md
 ```
 
-## 📚 Problem Breakdown
+> Folder capitalization follows the existing repository naming.
 
-### **DAY 1: Basic Arithmetic** 🔢
+## Problem Breakdown
 
-| #   | Problem              | Complexity      |
-| --- | -------------------- | --------------- |
-| Q1  | Sum up to N Numbers  | O(N) / O(1)     |
-| Q2  | Multiplication Table | O(N) / O(1)     |
-| Q3  | Factorial            | O(N) / O(1)     |
-| Q4  | Count Digits         | O(log N) / O(1) |
+| Day | Questions | Problems |
+| --- | --- | --- |
+| 1 | Q1-Q4 | Sum up to N, multiplication table, factorial, count digits |
+| 2 | Q5-Q8 | Sum of digits, reverse number, product of digits, palindrome check |
+| 3 | Q9-Q12 | Prime check, primes in range, GCD, LCM |
+| 4 | Q13-Q16 | Fibonacci series, nth Fibonacci, Armstrong check, Armstrong numbers in range |
+| 5 | Q17-Q20 | Perfect number, strong number, factors, largest prime factor |
+| 6 | Q21-Q24 | Decimal to binary, binary to decimal, count set bits, power without `pow()` |
+| 7 | Q25-Q28 | Recursive factorial, Fibonacci, sum of digits, reverse number |
+| 8 | Q29-Q32 | Half pyramid, number triangle, character triangle, repeated-number pattern |
+| 9 | Q33-Q36 | Reverse star, reverse number, repeated character, hollow square patterns |
+| 10 | Q37-Q40 | Star pyramid, reverse pyramid, number pyramid, character pyramid |
+| 11 | Q41-Q44 | Functions for sum, maximum, prime check, factorial |
+| 12 | Q45-Q48 | Functions for palindrome, Armstrong, Fibonacci, perfect number |
+| 13 | Q49-Q52 | Display array, sum and average, largest and smallest, even and odd count |
+| 14 | Q53-Q56 | Linear search, element frequency, second largest, duplicates |
+| 15 | Q57-Q60 | Reverse array, left rotation, right rotation, move zeroes to end |
+| 16 | Q61-Q64 | Missing number, maximum-frequency element, pair with given sum, remove duplicates |
+| 17 | Q65-Q68 | Merge, union, intersection, common elements |
+| 18 | Q69-Q72 | Bubble sort, selection sort, binary search, descending sort |
+| 19 | Q73-Q76 | Matrix addition, subtraction, transpose, diagonal sum |
+| 20 | Q77-Q80 | Matrix multiplication, symmetric matrix, row sums, column sums |
+| 21 | Q81-Q84 | String length without `strlen()`, reverse string, vowel/consonant count, lowercase to uppercase |
 
-### **DAY 2: Number Properties** 🔍
-
-| #   | Problem           | Complexity      |
-| --- | ----------------- | --------------- |
-| Q5  | Sum of Digits     | O(log N) / O(1) |
-| Q6  | Reverse Number    | O(log N) / O(1) |
-| Q7  | Product of Digits | O(log N) / O(1) |
-| Q8  | Palindrome Check  | O(log N) / O(1) |
-
-### **DAY 3: Prime & GCD Concepts** 🎯
-
-| #   | Problem         | Complexity             |
-| --- | --------------- | ---------------------- |
-| Q9  | Prime Check     | O(√N) / O(1)           |
-| Q10 | Prime in Range  | O(N√N) / O(1)          |
-| Q11 | GCD (Euclidean) | O(log min(a,b)) / O(1) |
-| Q12 | LCM             | O(log min(a,b)) / O(1) |
-
-### **DAY 4: Armstrong Numbers** 💎
-
-| #   | Problem          | Complexity           |
-| --- | ---------------- | -------------------- |
-| Q13 | Fibonacci Series | O(N) / O(1)          |
-| Q14 | Nth Fibonacci    | O(N) / O(1)          |
-| Q15 | Armstrong Check  | O(log N) / O(1)      |
-| Q16 | Armstrong Range  | O(N \* log N) / O(1) |
-
-### **DAY 5: Number Classification** 📊
-
-| #   | Problem              | Complexity        |
-| --- | -------------------- | ----------------- |
-| Q17 | Perfect Number Check | O(N) / O(1)       |
-| Q18 | Strong Number Check  | O(N \* M) / O(1)  |
-| Q19 | Factors of Number    | O(N) / O(1)       |
-| Q20 | Largest Prime Factor | O(N \* √N) / O(1) |
-
-### **DAY 6: Bit Operations & Powers** ⚡
-
-| #   | Problem             | Complexity      |
-| --- | ------------------- | --------------- |
-| Q21 | Decimal to Binary   | O(log N) / O(1) |
-| Q22 | Binary to Decimal   | O(log N) / O(1) |
-| Q23 | Count Set Bits      | O(log N) / O(1) |
-| Q24 | Power Without pow() | O(N) / O(1)     |
-
-### **DAY 7: Recursion Basics** 🔄
-
-| #   | Problem                  | Complexity          |
-| --- | ------------------------ | ------------------- |
-| Q25 | Recursive Factorial      | O(N) / O(N)         |
-| Q26 | Recursive Fibonacci      | O(2^N) / O(N)       |
-| Q27 | Recursive Sum of Digits  | O(log N) / O(log N) |
-| Q28 | Recursive Reverse Number | O(log N) / O(log N) |
-
-### **DAY 9: Pattern Generation** 🎨
-
-| #   | Problem                    | Complexity   |
-| --- | -------------------------- | ------------ |
-| Q33 | Reverse Star Pattern       | O(N²) / O(1) |
-| Q34 | Reverse Number Triangle    | O(N²) / O(1) |
-| Q35 | Repeated Character Pattern | O(N²) / O(1) |
-| Q36 | Hollow Square Pattern      | O(N²) / O(1) |
-
-### **DAY 10: Advanced Patterns** 🌟
-
-| #   | Problem           | Complexity   |
-| --- | ----------------- | ------------ |
-| Q37 | Star Pyramid      | O(N²) / O(1) |
-| Q38 | Reverse Pyramid   | O(N²) / O(1) |
-| Q39 | Number Pyramid    | O(N²) / O(1) |
-| Q40 | Character Pyramid | O(N²) / O(1) |
-
-## 🚀 Getting Started
+## Build and Run
 
 ### Prerequisites
 
-- GCC compiler with C++17 support
-- Linux/Unix environment (or Windows with WSL)
-- VS Code (optional, but recommended)
+- A compiler with C++17 support, such as GCC
+- Linux, macOS, Windows with WSL, or another compatible environment
 
-### Building
+### Compile a Solution
 
-#### Ubuntu/Linux Build
+Paths contain spaces, so quote the source path:
 
 ```bash
-# Build current file
-cd /path/to/workspace
 mkdir -p build
-g++ -std=c++17 -Wall -Wextra -g <filename>.cpp -o build/<filename>
+g++ -std=c++17 -Wall -Wextra "DAY 21/4.cpp" -o build/day21_4
+./build/day21_4
 ```
 
-#### VS Code Tasks
-
-Use the pre-configured build tasks:
-
-- **Build and Run (Ubuntu)**: `Ctrl+Shift+B` then select task
-- **Run with I/O**: Tests input from `practice_io/input.txt`
-
-### Running
+### Run with Input and Output Files
 
 ```bash
-# Direct execution
-./build/37_Star_Pyramid
-
-# With input from file
-./build/37_Star_Pyramid < practice_io/input.txt
+g++ -std=c++17 "Day 18/3.cpp" -o build/day18_3
+./build/day18_3 < practice_io/input.txt > practice_io/output.txt
+cat practice_io/output.txt
 ```
 
-## 📝 Example: Star Pyramid (Q37)
+## Code Style
 
-**Input:**
-
-```
-5
-```
-
-**Output:**
-
-```
-    *
-   ***
-  *****
- *******
-*********
-```
-
-**Code Snippet:**
-
-```cpp
-for(int i = 1; i <= n; i++){
-    // Print spaces
-    for(int j = 0; j < n - i; j++){
-        cout<<" ";
-    }
-    // Print stars (2*i - 1)
-    for(int j = 0; j < 2 * i - 1; j++){
-        cout<<"*";
-    }
-    cout<<endl;
-}
-```
-
-## 🔧 Code Style
-
-All solutions follow a consistent style:
+Solutions use a simple assignment-friendly structure:
 
 ```cpp
 /*
@@ -199,126 +114,55 @@ Problem: [Problem Description]
 Approach:
 1. [Step 1]
 2. [Step 2]
-...
-TC: O(...)
-SC: O(...)
+
+TC:O(...)
+SC:O(...)
 */
 
 //code
-
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    // Solution code
+    // Solution
     return 0;
 }
 ```
 
-## 📊 Key Concepts Covered
+## Concepts Covered
 
-- ✅ **Loops & Iterations** - Nested loops, pattern generation
-- ✅ **Recursion** - Base cases, recursive calls, call stack
-- ✅ **Number Theory** - Primes, GCD, LCM, factors
-- ✅ **Bit Manipulation** - Binary conversion, set bits
-- ✅ **Mathematical Properties** - Armstrong, perfect, strong numbers
-- ✅ **String/Pattern Concepts** - Palindromes, patterns, pyramids
+- Loops, conditions, and basic arithmetic
+- Number theory and digit operations
+- Recursion and functions
+- Pattern generation
+- Arrays, searching, hashing, and duplicate handling
+- Sorting algorithms and binary search
+- Matrix operations
+- Basic string processing
+- Time and space complexity analysis
 
-## 💡 Tips & Best Practices
+## Testing Tips
 
-1. **Understand Before Coding** - Read the approach before implementing
-2. **Test Edge Cases** - Try with 0, 1, negative numbers, large values
-3. **Optimize Early** - Consider time/space complexity from the start
-4. **Use Meaningful Names** - Variables should indicate their purpose
-5. **Comment Complex Logic** - Help your future self understand the code
+1. Compile with `-Wall -Wextra` to catch common mistakes.
+2. Test minimum and maximum valid input sizes.
+3. Try repeated, negative, zero, and already-sorted values where applicable.
+4. For matrices, verify dimensions before addition or multiplication.
+5. For strings, test spaces, mixed case, digits, and empty input when supported.
 
-## 🧪 Testing
+## Progress
 
-### Test with provided I/O
+- Curriculum covered: Q1-Q84 across 21 days
+- Solution files present: 83
+- Missing source file: Q1 in `DAY 1`
+- Language standard: C++17
+- Last README update: June 2026
 
-```bash
-# Run with input file
-g++ -std=c++17 DAY\ 10/37_Star_Pyramid.cpp -o build/test
-./build/test < practice_io/input.txt > practice_io/output.txt
-cat practice_io/output.txt
-```
+## Author
 
-### Manual Testing
+- **Assignment:** Summer Assignment 2025
+- **Roll Number:** 25112FW021
+- **Language:** C++17
 
-```bash
-./build/37_Star_Pyramid
-# Enter: 5
-# Output: Pyramid pattern
-```
-
-## 📈 Learning Progression
-
-```
-Week 1: Basics (Q1-Q12)
-  └─ Arithmetic → Number Properties → Primes & GCD
-
-Week 2: Advanced Basics (Q13-Q28)
-  └─ Armstrong → Special Numbers → Bit Ops → Recursion
-
-Week 3: Patterns (Q33-Q40)
-  └─ Simple Patterns → Advanced Pyramids
-```
-
-## 🎯 Complexity Analysis Reference
-
-### Time Complexity Cheat Sheet
-
-| Operation               | Complexity |
-| ----------------------- | ---------- |
-| Single digit extraction | O(log N)   |
-| Loop N times            | O(N)       |
-| Nested loops            | O(N²)      |
-| Prime check             | O(√N)      |
-| Recursive factorial     | O(N)       |
-| Recursive fibonacci     | O(2^N)     |
-
-### Space Complexity
-
-- Most solutions use **O(1)** - constant extra space
-- Recursive solutions use **O(N)** or **O(log N)** - call stack
-
-## 📚 Resources
-
-- [C++ Reference](https://cppreference.com)
-- [GeeksforGeeks - Number Theory](https://geeksforgeeks.org)
-- [Algorithm Complexity](https://en.wikipedia.org/wiki/Time_complexity)
-
-## 📝 Notes
-
-- Day 8 contains 4 additional practice problems
-- All files compiled successfully with `g++ -std=c++17`
-- Code follows TCS/Infosys/Wipro interview standards
-
-## ✨ Features
-
-- 🎯 40 completely solved problems
-- 📖 Detailed problem statements and approaches
-- ⏱️ Time & Space complexity for each solution
-- 🔨 Ready-to-use build tasks in VS Code
-- 📂 Organized by difficulty and concept
-- 💯 Interview-ready solutions
-
-## 👤 Author
-
-**Assignment**: Summer Assignment 2025 (Roll: 25112FW021)
-**Language**: C++17
-**Date**: June 2026
-
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
-
----
-
-<div align="center">
-
-**Happy Coding! 🎉**
-
-_Master the fundamentals, then conquer advanced problems!_
-
-</div>
