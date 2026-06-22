@@ -1,5 +1,1 @@
-Enter the String
-a : 5
-d : 3
-h : 1
-s : 5
+Enter a string: String after removing spaces: satyamall
