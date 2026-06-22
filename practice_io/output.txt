@@ -1,2 +1,5 @@
-Enter The String
-SATYAM
+Enter the String
+a : 5
+d : 3
+h : 1
+s : 5
