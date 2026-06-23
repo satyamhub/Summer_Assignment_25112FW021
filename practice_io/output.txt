@@ -1,1 +1,3 @@
-Enter a string: String after removing spaces: satyamall
+Enter the string
+Maximum occurring character: a
+Frequency: 2
