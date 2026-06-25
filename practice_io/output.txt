@@ -1,2 +1,4 @@
-Enter the string
-hdsa
+Enter String 1
+Enter String 2
+satyam
+satyam
