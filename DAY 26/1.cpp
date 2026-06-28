@@ -11,7 +11,7 @@ Approach:
 3. Then if both matches i will display Result.
 
 
-TC:O(Number of wrong guess)
+TC:O(Number of guess)
 SC:O(1)
 
 

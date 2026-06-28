@@ -2,11 +2,12 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=cplusplus)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solutions-83%2F84-brightgreen?style=flat-square)
+![Problems](https://img.shields.io/badge/Solutions-106%2F107-brightgreen?style=flat-square)
 
-A 21-day C++ assignment covering programming fundamentals, functions, arrays,
-sorting, matrices, and strings. The curriculum contains 84 questions, from Q1
-to Q84. This repository currently contains 83 solution files; the Q1 source
+A 27-day C++ assignment covering programming fundamentals, functions, arrays,
+sorting, matrices, strings, and small management systems. The curriculum
+contains 107 questions, from Q1 to Q107. This repository currently contains
+106 solution files; the Q1 source
 file is not present.
 
 ## Overview
@@ -43,6 +44,12 @@ Summer_Assignment_25112FW021/
 |-- Day 19/         # Matrix basics (Q73-Q76)
 |-- Day 20/         # Matrix operations (Q77-Q80)
 |-- DAY 21/         # String basics (Q81-Q84)
+|-- DAY 22/         # String counting and cleanup (Q85-Q88)
+|-- DAY 23/         # Character problems (Q89-Q92)
+|-- DAY 24/         # String operations (Q93-Q96)
+|-- DAY 25/         # Sorting strings and arrays (Q97-Q100)
+|-- DAY 26/         # Mini applications (Q101-Q104)
+|-- DAY 27/         # Record management systems (Q105-Q107)
 |-- build/          # Compiled binaries
 |-- practice_io/    # Input and output test files
 `-- README.md
@@ -75,6 +82,12 @@ Summer_Assignment_25112FW021/
 | 19 | Q73-Q76 | Matrix addition, subtraction, transpose, diagonal sum |
 | 20 | Q77-Q80 | Matrix multiplication, symmetric matrix, row sums, column sums |
 | 21 | Q81-Q84 | String length without `strlen()`, reverse string, vowel/consonant count, lowercase to uppercase |
+| 22 | Q85-Q88 | Palindrome string, word count, character frequency, remove spaces |
+| 23 | Q89-Q92 | First non-repeating character, first repeating character, anagram strings, maximum occurring character |
+| 24 | Q93-Q96 | String rotation, compress string, longest word, remove duplicate characters |
+| 25 | Q97-Q100 | Merge sorted arrays, common characters, sort names alphabetically, sort words by length |
+| 26 | Q101-Q104 | Number guessing game, voting eligibility system, ATM simulation, quiz application |
+| 27 | Q105-Q107 | Student record management, employee management, salary management |
 
 ## Build and Run
 
@@ -89,8 +102,8 @@ Paths contain spaces, so quote the source path:
 
 ```bash
 mkdir -p build
-g++ -std=c++17 -Wall -Wextra "DAY 21/4.cpp" -o build/day21_4
-./build/day21_4
+g++ -std=c++17 -Wall -Wextra "DAY 27/3.cpp" -o build/day27_3
+./build/day27_3
 ```
 
 ### Run with Input and Output Files
@@ -139,6 +152,7 @@ int main() {
 - Sorting algorithms and binary search
 - Matrix operations
 - Basic string processing
+- Mini applications and record management using `struct`
 - Time and space complexity analysis
 
 ## Testing Tips
@@ -151,8 +165,8 @@ int main() {
 
 ## Progress
 
-- Curriculum covered: Q1-Q84 across 21 days
-- Solution files present: 83
+- Curriculum covered: Q1-Q107 across 27 days
+- Solution files present: 106
 - Missing source file: Q1 in `DAY 1`
 - Language standard: C++17
 - Last README update: June 2026
