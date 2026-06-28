@@ -2,12 +2,12 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=cplusplus)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solutions-106%2F107-brightgreen?style=flat-square)
+![Problems](https://img.shields.io/badge/Solutions-111%2F112-brightgreen?style=flat-square)
 
-A 27-day C++ assignment covering programming fundamentals, functions, arrays,
+A 28-day C++ assignment covering programming fundamentals, functions, arrays,
 sorting, matrices, strings, and small management systems. The curriculum
-contains 107 questions, from Q1 to Q107. This repository currently contains
-106 solution files; the Q1 source
+contains 112 questions, from Q1 to Q112. This repository currently contains
+111 solution files; the Q1 source
 file is not present.
 
 ## Overview
@@ -49,7 +49,8 @@ Summer_Assignment_25112FW021/
 |-- DAY 24/         # String operations (Q93-Q96)
 |-- DAY 25/         # Sorting strings and arrays (Q97-Q100)
 |-- DAY 26/         # Mini applications (Q101-Q104)
-|-- DAY 27/         # Record management systems (Q105-Q107)
+|-- DAY 27/         # Record and marksheet systems (Q105-Q108)
+|-- DAY 28/         # More management systems (Q109-Q112)
 |-- build/          # Compiled binaries
 |-- practice_io/    # Input and output test files
 `-- README.md
@@ -87,7 +88,8 @@ Summer_Assignment_25112FW021/
 | 24 | Q93-Q96 | String rotation, compress string, longest word, remove duplicate characters |
 | 25 | Q97-Q100 | Merge sorted arrays, common characters, sort names alphabetically, sort words by length |
 | 26 | Q101-Q104 | Number guessing game, voting eligibility system, ATM simulation, quiz application |
-| 27 | Q105-Q107 | Student record management, employee management, salary management |
+| 27 | Q105-Q108 | Student record management, employee management, salary management, marksheet generation |
+| 28 | Q109-Q112 | Library management, bank account system, ticket booking, contact management |
 
 ## Build and Run
 
@@ -102,8 +104,8 @@ Paths contain spaces, so quote the source path:
 
 ```bash
 mkdir -p build
-g++ -std=c++17 -Wall -Wextra "DAY 27/3.cpp" -o build/day27_3
-./build/day27_3
+g++ -std=c++17 -Wall -Wextra "DAY 28/4.cpp" -o build/day28_4
+./build/day28_4
 ```
 
 ### Run with Input and Output Files
@@ -165,8 +167,8 @@ int main() {
 
 ## Progress
 
-- Curriculum covered: Q1-Q107 across 27 days
-- Solution files present: 106
+- Curriculum covered: Q1-Q112 across 28 days
+- Solution files present: 111
 - Missing source file: Q1 in `DAY 1`
 - Language standard: C++17
 - Last README update: June 2026
